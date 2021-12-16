@@ -1,0 +1,112 @@
+[
+  {
+    "timestamp": "2021-12-15T20:37:32.394Z",
+    "nombre": "Escuadra",
+    "descripcion": "Útiles de oficina",
+    "codigo": "OFI001",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 150,
+    "stock": 100,
+    "id": 1
+  },
+  {
+    "timestamp": "2021-12-15T20:38:02.735Z",
+    "nombre": "Borrador",
+    "descripcion": "Útiles de oficina",
+    "codigo": "OFI002",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 250,
+    "stock": 50,
+    "id": 2
+  },
+  {
+    "timestamp": "2021-12-15T20:38:27.746Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 3
+  },
+  {
+    "timestamp": "2021-12-15T21:16:11.715Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 4
+  },
+  {
+    "timestamp": "2021-12-15T21:16:46.597Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 5
+  },
+  {
+    "timestamp": "2021-12-15T21:17:21.042Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 6
+  },
+  {
+    "timestamp": "2021-12-15T21:17:22.633Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 7
+  },
+  {
+    "timestamp": "2021-12-15T21:18:51.535Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 8
+  },
+  {
+    "timestamp": "2021-12-15T21:19:03.688Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 9
+  },
+  {
+    "timestamp": "2021-12-15T21:19:07.722Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 10
+  },
+  {
+    "timestamp": "2021-12-15T21:28:33.136Z",
+    "nombre": "Lápiz",
+    "descripcion": "Útiles de oficina para escribir o dibujar",
+    "codigo": "OFI003",
+    "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+    "precio": 75,
+    "stock": 150,
+    "id": 11
+  }
+]

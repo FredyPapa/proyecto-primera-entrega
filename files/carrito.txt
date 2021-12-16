@@ -1,0 +1,70 @@
+[
+  {
+    "timestamp": "2021-12-15T22:27:17.566Z",
+    "productos": [
+      {
+        "id": 2,
+        "timestamp": "2021-12-15T20:38:02.735Z",
+        "nombre": "Borrador",
+        "descripcion": "Útiles de oficina para borrar",
+        "codigo": "OFI002",
+        "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+        "precio": 50,
+        "stock": 100
+      },
+      {
+        "id": 3,
+        "timestamp": "2021-12-15T20:38:02.735Z",
+        "nombre": "Lápiz",
+        "descripcion": "Útiles de oficina para escribir o dibujar",
+        "codigo": "OFI003",
+        "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+        "precio": 175,
+        "stock": 350
+      }
+    ],
+    "id": 1
+  },
+  {
+    "timestamp": "2021-12-15T22:27:24.742Z",
+    "productos": [
+      {
+        "id": 1,
+        "timestamp": "2021-12-15T20:38:02.735Z",
+        "nombre": "Escuadra",
+        "descripcion": "Útiles de oficina",
+        "codigo": "OFI001",
+        "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+        "precio": 25,
+        "stock": 120
+      },
+      {
+        "id": 3,
+        "timestamp": "2021-12-15T20:38:02.735Z",
+        "nombre": "Lápiz",
+        "descripcion": "Útiles de oficina para escribir o dibujar",
+        "codigo": "OFI003",
+        "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+        "precio": 175,
+        "stock": 350
+      }
+    ],
+    "id": 2
+  },
+  {
+    "timestamp": "2021-12-15T22:27:28.864Z",
+    "productos": [
+      {
+        "id": 1,
+        "timestamp": "2021-12-15T20:38:02.735Z",
+        "nombre": "Escuadra",
+        "descripcion": "Útiles de oficina",
+        "codigo": "OFI001",
+        "foto": "https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg",
+        "precio": 25,
+        "stock": 120
+      }
+    ],
+    "id": 3
+  }
+]
