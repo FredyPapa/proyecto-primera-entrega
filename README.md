@@ -1,4 +1,4 @@
-# Primera entrega del proyecto final - Fredy Papa
+# Primera entrega del proyecto final de Node JS - Fredy Papa
 ### (E-commerce Backend)
 
 ##### Nota:
@@ -6,6 +6,10 @@ Puede usar https://dillinger.io/ para ver este contenido con los formatos de MD
 
 ## GitHub
 https://github.com/FredyPapa/proyecto-primera-entrega.git
+
+## Glitch
+Live: https://dirt-whimsical-gambler.glitch.me
+Code: https://glitch.com/edit/#!/dirt-whimsical-gambler
 
 ## Dependencias
 El proyecto usa las siguientes ```dependencias```:
