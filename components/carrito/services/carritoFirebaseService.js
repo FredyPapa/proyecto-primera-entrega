@@ -57,7 +57,29 @@ class CarritoFirebase{
     //Agregar producto a un carrito por id
     async addProductoToCarritoById(id,data){
         try {
-            //return await CarritoModel.findOneAndUpdate({"_id": ObjectId(id)},{$push:{productos:data}});
+            //Declaramos un arreglo vacío
+            let dataFirebase = [];
+            //Nos ubicamos en la colección carrito
+            let carrito = firebaseDB.collection("carrito");
+            //Obtenemos la data
+            let res = await carrito.get();
+            //Almacenamos en el arreglo
+            res.forEach(element =>{
+                dataFirebase.push({id: element.id, ...element.data()})
+            });
+            //Filtramos el resultado a mostrar
+            let filtro = dataFirebase.filter(elemento=>elemento.id===id);
+            //Obtenemos el arreglo de productos
+            let arregloProductos = filtro[0].productos;
+            //Le añadimos el producto nuevo
+            arregloProductos.push(data);
+            //console.log(arregloProductos);
+            //Actualizamos
+            dataFirebase.forEach(async element =>{
+                if(element.id === id){
+                    return await carrito.doc(element.id).update({productos:arregloProductos});
+                }
+            });
         } catch (error) {
             console.log(error);
         }
@@ -65,12 +87,29 @@ class CarritoFirebase{
     //Eliminar producto del carrito por id
     async deleteProductoCarritoById(id, id_prod){
         try {
-            /*let {productos} = await CarritoModel.findOne({"_id": ObjectId(id)},{productos:1,_id:0});
-            console.log(productos);
-            productos = productos.filter((producto)=>{
-                return producto.id !== id_prod;
+            //Declaramos un arreglo vacío
+            let dataFirebase = [];
+            //Nos ubicamos en la colección carrito
+            let carrito = firebaseDB.collection("carrito");
+            //Obtenemos la data
+            let res = await carrito.get();
+            //Almacenamos en el arreglo
+            res.forEach(element =>{
+                dataFirebase.push({id: element.id, ...element.data()})
             });
-            return await CarritoModel.findOneAndUpdate({"_id": ObjectId(id)},{$set:{productos:productos}});*/
+            //Filtramos el resultado a mostrar
+            let filtro = dataFirebase.filter(elemento=>elemento.id===id);
+            //Obtenemos el arreglo de productos
+            let arregloProductos = filtro[0].productos;
+            //Eliminamos el producto
+            arregloProductos = arregloProductos.filter(element => element.id!==id_prod);
+            //console.log(arregloProductos);
+            //Actualizamos
+            dataFirebase.forEach(async element =>{
+                if(element.id === id){
+                    return await carrito.doc(element.id).update({productos:arregloProductos});
+                }
+            });
         } catch (error) {
             console.log(error);
         }
