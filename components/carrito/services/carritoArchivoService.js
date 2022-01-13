@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-class Service{
+class CarritoArchivo{
     constructor(url){
         this.url = url;
         this.arregloCarritos = [];
@@ -146,4 +146,4 @@ class Service{
 
 }
 
-module.exports = Service;
+module.exports = new CarritoArchivo('./files/carrito.txt');

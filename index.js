@@ -4,8 +4,7 @@ let cors = require("cors");
 require('dotenv').config();
 
 //Importaciones propias del proyecto
-const { serverRouter } = require("./routes/index.js");
-
+const { serverRouter } = require("./routes");
 const app = express();
 const PORT = process.env.PORT;
 

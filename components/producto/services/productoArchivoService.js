@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-class Service{
+class ProductoArchivo{
     constructor(url){
         this.url = url;
         this.arregloProductos = [];
@@ -70,9 +70,13 @@ class Service{
             //Actualizadmos el nombre del producto según el Id
             const arregloProductosActualizado = this.arregloProductos.map((producto)=>{
                 if(producto.id === id){
-                    producto.title = data.title;
-                    producto.price = data.price;
-                    producto.thumbnail = data.thumbnail;
+                    producto.timestamp = data.timestamp;
+                    producto.nombre = data.nombre;
+                    producto.descripcion = data.descripcion;
+                    producto.codigo = data.codigo;
+                    producto.foto = data.foto;
+                    producto.precio = data.precio;
+                    producto.stock = data.stock;
                 }
                 return producto;
             });
@@ -128,4 +132,4 @@ class Service{
     }
 }
 
-module.exports = Service;
+module.exports = new ProductoArchivo("./files/productos.txt");
