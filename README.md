@@ -8,8 +8,8 @@ Puede usar https://dillinger.io/ para ver este contenido con los formatos de MD
 https://github.com/FredyPapa/proyecto-primera-entrega.git
 
 ## Glitch
-- Live: https://dirt-whimsical-gambler.glitch.me
-- Code: https://glitch.com/edit/#!/dirt-whimsical-gambler
+- Live: https://orchid-awake-belief.glitch.me
+- Code: https://glitch.com/edit/#!/orchid-awake-belief
 
 ## Dependencias
 El proyecto usa las siguientes ```dependencias```:
